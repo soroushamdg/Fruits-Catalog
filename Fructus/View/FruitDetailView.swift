@@ -23,7 +23,10 @@ import SwiftUI
                             .font(.headline)
                             .multilineTextAlignment(.leading)
                         
+                        FruitNutrientsView(fruit: fruit)
+                        
                         Text("Learn more about \(fruit.title)".uppercased())
+                        
                         
                         Text(fruit.description)
                             .multilineTextAlignment(.leading)
