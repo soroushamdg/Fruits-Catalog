@@ -41,6 +41,7 @@ import SwiftUI
             .navigationBarHidden(true)
             .edgesIgnoringSafeArea(.top)
         }
+        .navigationViewStyle(.stack)
     }
          
 }

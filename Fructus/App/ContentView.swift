@@ -29,7 +29,8 @@ struct ContentView: View {
             .sheet(isPresented: $isShowingSettings, content: {
                 SettingsView()
             })
-        } 
+        }
+        .navigationViewStyle(.stack)
         
     }
 }
